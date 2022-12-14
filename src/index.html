@@ -14,5 +14,11 @@
       <div class="emoji mb-6">💣🤯💥</div>
       <button class="button">Boom?</button>
     </div>
+    <script>
+      document.querySelector(".image").onclick = () => {
+      let avatar = document.querySelector(".image");
+      avatar.setAttribute("style", "transform: scale(2);");
+    };
+    </script>
   </body>
 </html>
